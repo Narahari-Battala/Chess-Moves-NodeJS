@@ -37,7 +37,10 @@ If incorrect piece name or incorrect position is provided , then error messages 
 //          a  b  c  d  e  f  g  h'
 ```
 
+### Steps to Run this Application:
 
+>1. npm install (to install all packages)  
+>2. npm start. (to start the application ) 
 
 
 
