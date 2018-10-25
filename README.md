@@ -17,7 +17,7 @@ There are 6 Chess Pieces.
 >5. King
 >6. Pawn
 
-First User can enter a valid chess piece name and valid poistion, on submit all the positions to which the piece can be moved will be shown in drop down. From the available positions user can select a position and the piece will be moved to the selected position. Then the selected position will not available for other chess pieces.
+First User can enter a valid chess piece name and valid position, on submit all the positions to which the chess piece can be moved will be shown in drop down. From the available positions user can select a position and the piece will be moved to the selected position. Then the selected position will not be available for other chess pieces.
 
 If incorrect piece name or incorrect position is provided , then error messages will be shown to the user. User can see the game instructions if he is not sure of format of the input.
 
