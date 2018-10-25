@@ -21,6 +21,20 @@ First User can enter a valid chess piece name and valid position, on submit all 
 
 If incorrect piece name or incorrect position is provided , then error messages will be shown to the user. User can see the game instructions if he is not sure of format of the input.
 
+I have assumed chess board to be as below
+
+// -> '   +------------------------+
+//      8 | r  n  b  q  k  b  n  r |
+//      7 | p  p  p  p  .  p  p  p |
+//      6 | .  .  .  .  .  .  .  . |
+//      5 | .  .  .  .  p  .  .  . |
+//      4 | .  .  .  .  P  P  .  . |
+//      3 | .  .  .  .  .  .  .  . |
+//      2 | P  P  P  P  .  .  P  P |
+//      1 | R  N  B  Q  K  B  N  R |
+//        +------------------------+
+//          a  b  c  d  e  f  g  h'
+
 
 
 
