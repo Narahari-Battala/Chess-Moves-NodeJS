@@ -22,18 +22,17 @@ First User can enter a valid chess piece name and valid position, on submit all 
 If incorrect piece name or incorrect position is provided , then error messages will be shown to the user. User can see the game instructions if he is not sure of format of the input.
 
 ### Assumed Chess Board
-Returns a string containing an ASCII diagram of the current position.
 
-```js
-// -> '   +------------------------+
-//      8 | r  n  b  q  k  b  n  r |
-//      7 | p  p  p  p  .  p  p  p |
-//      6 | .  .  .  .  .  .  .  . |
-//      5 | .  .  .  .  p  .  .  . |
-//      4 | .  .  .  .  P  P  .  . |
+```
+//    '   +------------------------+
+//      1 | r  n  b  q  k  b  n  r |
+//      2 | p  p  p  p  .  p  p  p |
 //      3 | .  .  .  .  .  .  .  . |
-//      2 | P  P  P  P  .  .  P  P |
-//      1 | R  N  B  Q  K  B  N  R |
+//      4 | .  .  .  .  p  .  .  . |
+//      5 | .  .  .  .  P  P  .  . |
+//      6 | .  .  .  .  .  .  .  . |
+//      7 | P  P  P  P  .  .  P  P |
+//      8 | R  N  B  Q  K  B  N  R |
 //        +------------------------+
 //          a  b  c  d  e  f  g  h'
 ```
