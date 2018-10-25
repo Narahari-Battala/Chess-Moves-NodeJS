@@ -42,6 +42,8 @@ If incorrect piece name or incorrect position is provided , then error messages 
 >1. npm install (to install all packages)  
 >2. npm start. (to start the application ) 
 
+This application runs on port 3000 and can be seen by just going to http://localhost:3000/
+
 
 
 
