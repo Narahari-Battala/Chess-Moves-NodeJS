@@ -21,8 +21,18 @@ First User can enter a valid chess piece name and valid position, on submit all 
 
 If incorrect piece name or incorrect position is provided , then error messages will be shown to the user. User can see the game instructions if he is not sure of format of the input.
 
-I have assumed chess board to be as below
+### .ascii()
+Returns a string containing an ASCII diagram of the current position.
 
+```js
+var chess = new Chess();
+
+// make some moves
+chess.move('e4');
+chess.move('e5');
+chess.move('f4');
+
+chess.ascii();
 // -> '   +------------------------+
 //      8 | r  n  b  q  k  b  n  r |
 //      7 | p  p  p  p  .  p  p  p |
@@ -34,6 +44,7 @@ I have assumed chess board to be as below
 //      1 | R  N  B  Q  K  B  N  R |
 //        +------------------------+
 //          a  b  c  d  e  f  g  h'
+```
 
 
 
