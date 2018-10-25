@@ -66,8 +66,9 @@ router.get('/positions',function(req,res,next){
             else {
             res.render('index', { title: 'Chess',groupedData:selectedposition});
             }
-		        break;
-		      case "ROOK" :
+	     break;
+			
+           case "ROOK" :
             selectedposition = rook.getAvailablePositions(row-1, columnValue-1,allPositions);
             if (selectedposition.length == 0) {
        
@@ -76,8 +77,9 @@ router.get('/positions',function(req,res,next){
             else{
             res.render('index', { title: 'Chess',groupedData:selectedposition});
             }
-		        break;
-		      case "KNIGHT" :
+	     break;
+			
+	    case "KNIGHT" :
             selectedposition = knight.getAvailablePositions(row-1, columnValue-1,allPositions);
             if (selectedposition.length == 0) {
        
@@ -86,8 +88,9 @@ router.get('/positions',function(req,res,next){
             else{
             res.render('index', { title: 'Chess',groupedData:selectedposition});
             }
-		        break;
-		      case "BISHOP" :
+	     break;
+			
+            case "BISHOP" :
             selectedposition = bishop.getAvailablePositions(row-1, columnValue-1,allPositions);
             if (selectedposition.length == 0) {
        
@@ -96,8 +99,9 @@ router.get('/positions',function(req,res,next){
             else{
               res.render('index', { title: 'Chess',groupedData:selectedposition});
               }
-		        break;
-	      	case "KING" :
+	      break;
+			
+	    case "KING" :
             selectedposition = king.getAvailablePositions(row-1, columnValue-1,allPositions);
             if (selectedposition.length == 0) {
        
@@ -106,8 +110,9 @@ router.get('/positions',function(req,res,next){
             else{
               res.render('index', { title: 'Chess',groupedData:selectedposition});
               }
-		        break;
-		      case "QUEEN" :
+	      break;
+			
+	     case "QUEEN" :
             selectedposition = queen.getAvailablePositions(row-1, columnValue-1,allPositions);
             if (selectedposition.length == 0) {
        
@@ -116,7 +121,7 @@ router.get('/positions',function(req,res,next){
             else{
               res.render('index', { title: 'Chess',groupedData:selectedposition});
               }
-		        break;
+              break;
         }
      }
     
